@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import RPSReducer from './rps';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+    rps: RPSReducer
 });
 
 export default rootReducer;

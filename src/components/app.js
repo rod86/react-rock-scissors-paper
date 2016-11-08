@@ -3,7 +3,6 @@ import Grid from 'react-bootstrap/lib/Grid';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import Navbar from 'react-bootstrap/lib/Navbar';
-import Button from 'react-bootstrap/lib/Button';
 import RPS from '../containers/RPS';
 
 export default class App extends Component {
@@ -16,9 +15,6 @@ export default class App extends Component {
                         <a href="#">Rock Paper Scissors</a>
                     </Navbar.Brand>
                 </Navbar.Header>
-                <Navbar.Text>
-                    <Button bsStyle="danger">Restart Game</Button>
-                </Navbar.Text>
             </Navbar>
 
             <Grid>

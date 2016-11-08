@@ -1,11 +1,3 @@
-/* Navbar */
-.navbar-brand {
-    padding: 20px;
-}
-.navbar .navbar-text {
-    float: right;   
-}
-
 /* RPS */
 #rock-paper-scissors > .row {
     margin-bottom: 15px;
@@ -22,6 +14,7 @@
 
 /* RPS Board Component */
 #rock-paper-scissors-board > div {
+    height: 300px;
     border: 1px solid #efefef;
     text-align: center;
 }
@@ -32,15 +25,8 @@
     padding: 10px 0;
 }
 
-/* Extra Small Devices, Phones => 480px */
-/* tablets */
-@media only screen and (max-width : 768px) {
-    /* navbar */
-    .navbar .navbar-header {
-        float: left;
-        width: auto;
-    }
-    .navbar .navbar-text {
-        width: auto;
-    }
+#rock-paper-scissors-text {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
 }
